@@ -7,7 +7,7 @@ function NavBar() {
         
           <div className='menu'>
            <>
-    <ReactBootStrap.Navbar bg="light" variant="light">
+    <ReactBootStrap.Navbar >
     <ReactBootStrap.Container>
     <ReactBootStrap.Navbar.Brand href="#home">  <img
           alt=""
@@ -36,5 +36,7 @@ function NavBar() {
         
     );
 }
+
+
 
 export default NavBar;
